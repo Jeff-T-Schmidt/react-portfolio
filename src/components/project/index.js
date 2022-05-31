@@ -1,2 +1,3 @@
-// import React from 'react';
-import './style.css'
+const Project = () => 'Hello'
+
+export default Project

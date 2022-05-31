@@ -14,19 +14,19 @@ export default function Nav() {
         <img src={myPic} alt="picture of me" />
       </Link>
       <nav>
-      <NavLink exact='true' activeclassname="active" to="/">
+      <NavLink exact='true' activeclassname="active" to="/home">
         <FontAwesomeIcon icon={faHome} color='#4d4d4e'/>
       </NavLink>     
-      <NavLink exact='true' activeclassname="active" className="contact-link" to="/">
+      <NavLink exact='true' activeclassname="active" className="contact-link" to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
       </NavLink>     
-      <NavLink exact='true' activeclassname="active"className="about-link"to="/">
+      <NavLink exact='true' activeclassname="active"className="about-link"to="/about">
         <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
       </NavLink>     
-      <NavLink exact='true' activeclassname="active"className="resume-link" to="/">
+      <NavLink exact='true' activeclassname="active"className="resume-link" to="/resume">
         <FontAwesomeIcon icon={faFile} color='#4d4d4e'/>
       </NavLink>     
-      <NavLink exact='true' activeclassname="active"className="projects-link" to="/">
+      <NavLink exact='true' activeclassname="active"className="projects-link" to="/projects">
         <FontAwesomeIcon icon={faBriefcase} color='#4d4d4e'/>
       </NavLink>     
    
@@ -35,20 +35,3 @@ export default function Nav() {
     </div>
   );
 }
-
- // const [value, setValue] = React.useState(0);
-{/* <Box sx={{ width: 500 }} >
-<BottomNavigation
-  showLabels
-  value={value}
-  onChange={(event, newValue) => {
-    setValue(newValue);
-  }}
->
-  <BottomNavigationAction label="Home" icon={<HomeIcon />} to='/' />
-  <BottomNavigationAction label="About me" icon={<InfoIcon />} to='/about' />
-  <BottomNavigationAction label="Projects" icon={<AccountTreeIcon />} to='/projects'/>
-  <BottomNavigationAction label="Contact" icon={<PermContactCalendarIcon />} to='/contact' />
-  <BottomNavigationAction label="Resume" icon={<DocumentScannerIcon />} to='/resume' />
-</BottomNavigation>
-</Box> */}
