@@ -5,7 +5,7 @@
          left: 10%;
          top: 30%;
          transform: translateY(-50%);
-         width: 35%;
+         width: 45%;
          vertical-align: middle;
          display: table-cell;
          max-height: 90%;
@@ -27,8 +27,38 @@
              font-family: sans-serif;
              font-weight: 300;
              max-width: fit-content;
-             animation: pulse 1s;
          }
      }
      
+ }
+ .container.contact-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 53px;
+           //  font-family: 'Coolvetica';
+            color: #008d00;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: -10px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 300;
+            max-width: fit-content;
+        }
+    }
  }

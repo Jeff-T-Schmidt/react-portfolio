@@ -8,12 +8,11 @@ import Contact from '../Contact';
 const Layout = () => {
     return (
         <>
-            <Nav />
-            <Footer/>
-            {/* <About/>
-            <Home/>
+            {/* <Nav />
+            <Footer/> */}
+            <About/>
+            {/* <Home/>
             <Contact/> */}
-            <Contact/>
         </>
     )
 }

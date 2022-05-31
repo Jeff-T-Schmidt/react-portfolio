@@ -37,7 +37,7 @@ const Contact = () => {
                 <div className='info-map'>
                     Jeff Schmidt
                     <br />
-                    United States of America,
+                    United States of America
                     <br />
                     20010 12th DR SE <br />
                     Bothell Washington <br />
