@@ -4,7 +4,7 @@ import { NavLink, Link } from 'react-router-dom';
 import myPic from "../../../assets/jeff.jpg"
 import {FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser, faFile, faBriefcase} from '@fortawesome/free-solid-svg-icons';
-
+import myResume from "../../../assets/Resume.txt"
 
 
 export default function Nav() {
@@ -23,9 +23,11 @@ export default function Nav() {
       <NavLink exact='true' activeclassname="active"className="about-link"to="/about">
         <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
       </NavLink>     
-      <NavLink exact='true' activeclassname="active"className="resume-link" to="/resume">
+      <NavLink  activeclassname="active"className="resume-link" to={myResume}
+       onClick={() => window.location.reload(false)}>
+      {/* <a href='../../../assets/Resume.txt' download></a> */}
         <FontAwesomeIcon icon={faFile} color='#4d4d4e'/>
-      </NavLink>     
+         </NavLink>     
       <NavLink exact='true' activeclassname="active"className="projects-link" to="/projects">
         <FontAwesomeIcon icon={faBriefcase} color='#4d4d4e'/>
       </NavLink>     

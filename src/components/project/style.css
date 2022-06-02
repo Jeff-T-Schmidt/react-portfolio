@@ -1,0 +1,54 @@
+h1 {
+    font-size: 53px;
+    color: #008d00;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: -10px;
+}
+
+.text-zone {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 45%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+}
+
+/* img{
+    display: 'flex';
+    flex-wrap: 'wrap';
+    justify-content: 'space-around';
+    overflow: 'hidden';
+} */
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    max-width: 70%;
+    max-height: 70%;
+
+}
+
+.pic1 {
+   position: absolute;
+   top:50%;
+}
+
+.pic2 {
+    position: absolute;
+    margin-left: 70%;
+}
+
+.pic3 {
+    position: absolute;
+}
+
+.pic4 {
+    float: right;
+    position: absolute;
+}
