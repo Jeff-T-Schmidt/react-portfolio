@@ -12,43 +12,23 @@ h1 {
     position: absolute;
     left: 10%;
     top: 10%;
-    transform: translateY(-50%);
-    width: 45%;
+    /* transform: translateY(-50%); */
+    width: 88%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-}
-
-/* img{
-    display: 'flex';
-    flex-wrap: 'wrap';
-    justify-content: 'space-around';
-    overflow: 'hidden';
-} */
-.pic1,
-.pic2,
-.pic3,
-.pic4 {
-    max-width: 70%;
-    max-height: 70%;
 
 }
 
-.pic1 {
-   position: absolute;
-   top:50%;
-}
+.project-container {
 
-.pic2 {
-    position: absolute;
-    margin-left: 70%;
+    height: 400px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.pic3 {
-    position: absolute;
-}
-
-.pic4 {
-    float: right;
-    position: absolute;
+.projectImages{
+    height: 300px;
+    width: 400px;
 }
