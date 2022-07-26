@@ -1,7 +1,7 @@
 import './style.scss'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import image1 from '../../assets/tosh.jpg'
+import image1 from '../../assets/july.jpg'
 import image2 from '../../assets/toshandi.jpg'
 import image3 from '../../assets/toshandwife.jpg'
 
