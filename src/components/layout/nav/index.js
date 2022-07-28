@@ -4,14 +4,14 @@ import { NavLink, Link } from 'react-router-dom';
 import myPic from "../../../assets/jeff.jpg"
 import {FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser, faFile, faBriefcase} from '@fortawesome/free-solid-svg-icons';
-import myResume from "../../../assets/Resume.txt"
+
 
 
 export default function Nav() {
   return (
     <div className='nav-bar'>
       <Link className='picture' to='/'>
-        <img src={myPic} alt="picture of me" />
+        <img src={myPic}alt='developer' />
       </Link>
       <nav>
       <NavLink exact='true' activeclassname="active" to="/home">
@@ -22,10 +22,10 @@ export default function Nav() {
       </NavLink>     
       <NavLink exact='true' activeclassname="active"className="about-link"to="/about">
         <FontAwesomeIcon icon={faUser} color='#4d4d4e'/>
-      </NavLink>     
-      <NavLink  activeclassname="active"className="resume-link" to={myResume}
-       onClick={() => window.location.reload(false)}>
-      {/* <a href='../../../assets/Resume.txt' download></a> */}
+      </NavLink>
+      {/* Have the resume link go back to /home?      */}
+      <NavLink  activeclassname="active"className="resume-link" to="/resume"
+       onClick={() => window.open("https://docs.google.com/document/d/1J2W-EwZhN78MEM4jtZG55BTixvjfRRuGzd62zhy7-0g/edit?usp=sharing")}>
         <FontAwesomeIcon icon={faFile} color='#4d4d4e'/>
          </NavLink>     
       <NavLink exact='true' activeclassname="active"className="projects-link" to="/projects">

@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-import {faFacebook,faInstagram,faTwitter,faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {faGithub,faLinkedin,faDiscord,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import {
   Box,
   Container,
@@ -15,34 +15,34 @@ const Footer = () => {
       <Container>
         <Row>
           <Column>
-            <FooterLink href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faFacebook} />
+            <FooterLink href="https://github.com/Jeff-T-Schmidt" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} />
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
+                  GitHub
                 </span>
          
             </FooterLink>
           </Column>
           <Column>
-            <FooterLink href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} />
+            <FooterLink href="https://www.linkedin.com/in/jeff-t-schmidt" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} />
                 <span style={{ marginLeft: "10px" }}>
-                  Instagram
+                  Linkedin
                 </span>
             
             </FooterLink>
           </Column>
           <Column>
-            <FooterLink href="https://twitter.com/elonmusk" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FooterLink href="https://discord.com/users/id/269991981541883907" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faDiscord} />
                 <span style={{ marginLeft: "10px" }}>
-                  Twitter
+                  Discord
                 </span>
     
             </FooterLink>
           </Column>
           <Column>
-          <FooterLink href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <FooterLink href="https://www.youtube.com/c/WebDevSimplified" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faYoutube} />
                 <span style={{ marginLeft: "10px" }}>
                   Youtube
