@@ -16,13 +16,15 @@ code {
     monospace;
 }
 .leaflet-container {
-  margin-top: 10%;
-  width: 90%;
+  margin-top: 11%;
+  width: 85%;
   height: 70vh;
+  margin-left: 11%;
 }
 .map-wrap {
   float: right;
   width: 50%;
   height: 115%;
-  margin-top: -3%;
+  margin-top: -6%;
+  
 }
